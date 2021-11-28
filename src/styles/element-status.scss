@@ -1,0 +1,87 @@
+.el-form-item__label {
+  color: #606266;
+}
+
+.el-form-itemsmall .el-form-item__label {
+  line-height: 20px;
+}
+.el-formlabel-top .el-form-item__label {
+  padding: 0 0 4px 0;
+}
+
+// el-message 样式覆盖
+.el-message {
+  min-width: 0 !important;
+  height: 40px;
+  padding-right: 20px;
+  background-color: #fff !important;
+  border: none !important;
+  box-shadow: 0px -4px 14px 3px rgba(#000, 0.06), 0px 12px 28px 0px rgba(#000, 0.06) !important;
+}
+
+.el-message .el-message__content {
+  color: #606266 !important;
+}
+
+.el-message .el-icon-success {
+  color: $color-success;
+}
+.el-message .el-icon-warning {
+  color: $color-warning;
+}
+.el-message .el-icon-info {
+  color: $color-primary;
+}
+.el-message .el-icon-error {
+  color: $color-danger;
+}
+
+// .el-button {
+//   border-radius: 6px;
+// }
+
+
+.el-dropdown {
+  cursor: pointer;
+}
+
+.setting__word-break {
+  word-break: break-word;
+}
+
+.setting__word-break > div{
+  word-break: break-word !important;
+}
+
+.add-member-dialog .el-dialog__body{
+  el-body-border: 1px solid #DCDFE6;
+  border-top: var(el-body-border);
+  border-bottom: var(el-body-border);
+  padding: 20px 12px 6px;
+  margin-bottom: 5px;
+}
+.add-member-dialog .dialog-footer .el-button {
+  padding: 0 20px;
+}
+.add-member-dialog .dialog-footer .el-buttonprimary{
+  background: #203062;
+  border: none;
+}
+textarea {
+  font-family: Arial;
+}
+
+// el-dropdown
+.el-dropdown-menu {
+  .el-dropdown-menu__item:hover {
+    background-color: #F0F2F6;
+    color: #606266;
+  }
+  .el-dropdown-menu__item.is-diaabled {
+    color: #909399;
+    .el-dropdown-menu__item.is-diaabled:hover {
+      color: #909399!important;
+    }
+  }
+}
+

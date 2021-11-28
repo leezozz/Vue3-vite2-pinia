@@ -1,0 +1,39 @@
+
+// Only variables can be placed here,
+// and other files such as themes cannot be introduced,
+// otherwise it will affect the packaging speed.
+
+/* theme color */
+// 按需导入，重写覆盖自己所需样式
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": #F37021,
+    ),
+    "success": (
+      "base":  #67c23a,
+    ),
+    "warning": (
+      "base":  #e6a23c,
+    ),
+    "danger": (
+      "base":  #f56c6c,
+    ),
+    "info": (
+      "base":  #909399,
+    ),
+    
+  ),
+  $text-color: (
+    'primary': red,
+    'regular': #606266,
+    'secondary': #909399,
+    'placeholder': #c0c4cc,
+  ),
+  $border-radius: (
+    'base': 4px,
+    'small': 2px,
+    'round': 20px,
+    'circle': 100%,
+  ),
+);

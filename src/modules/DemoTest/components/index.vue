@@ -1,6 +1,7 @@
 <template>
   <div class="xxx-container">
     <h2>demo</h2>
+    <el-button type="primary">按钮</el-button>
   </div>
 </template>
 
