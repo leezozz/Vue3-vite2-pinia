@@ -1,4 +1,5 @@
-import { Comment, defineAsyncComponent, RouteRecordRaw } from 'vue'
+import { defineAsyncComponent } from 'vue'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 
 const routes: Array<RouteRecordRaw> = [
@@ -13,5 +14,12 @@ const routes: Array<RouteRecordRaw> = [
     // component: defineAsyncComponent(() => import('comps/404.vue'))
     component: () => import('comps/404.vue')
   }
-]
-export default routes
+];
+
+const router = createRouter({
+  // history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+});
+
+export default router
