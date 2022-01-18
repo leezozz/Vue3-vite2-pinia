@@ -1,5 +1,5 @@
 {
-  "name": "vue3-ts-vite-template",
+  "name": "Vue3-vite2-pinia",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
     "axios": "^0.24.0",
     "element-plus": "^1.2.0-beta.3",
     "js-cookie": "^3.0.1",
+    "pinia": "^2.0.0-rc.10",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
     "ts-loader": "^9.2.6",
